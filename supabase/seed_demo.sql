@@ -4,7 +4,7 @@
 --
 -- Убрать демо потом одной командой:
 --   delete from public.cards where model = 'demo';
---   delete from public.sources where url like '%#demo';
+--   delete from public.sources where url like '%#demo' or url like '%TESTzhizn%';
 -- =====================================================================
 do $$
 declare
