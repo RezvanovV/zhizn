@@ -1,0 +1,36 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Node / веб
+node_modules/
+dist/
+.vite/
+
+# Python / обработчик
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Временные файлы обработки (аудио, видео)
+worker/tmp/
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.webm
+
+# Supabase CLI
+supabase/.temp/
+supabase/.branches/
+
+# Системное
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Личные документы (только на этом ПК)
+docs/private/
