@@ -35,5 +35,7 @@ docs/design/Жизнь-экраны.html
 Код (`web/`, `worker/`, `supabase/`) появится по этапам.
 
 ## Текущий этап
-**Этап 1 почти готов** (осталась проверка Supabase с iPhone без VPN), дальше этап 2 — веб-скелет. Чек-листы — в `docs/ROADMAP.md`.
+**Этап 2 почти готов** (осталась проверка сайта с iPhone без VPN), дальше этап 3 — приём ссылок с iPhone. Чек-листы — в `docs/ROADMAP.md`.
+Сайт: https://rezvanovv.github.io/zhizn/ — выкладывается сам при push в `web/` (`.github/workflows/deploy.yml`). Локально: `cd web; npm run dev`.
+Git: в коммитах анонимная почта GitHub (noreply), настроена локально в репозитории.
 Supabase: проект `zhizn`, адрес `https://bggbutppnpqfdzvmekhw.supabase.co`, ключи в `.env`. Используются новые ключи (publishable / secret), не legacy anon / service_role.
