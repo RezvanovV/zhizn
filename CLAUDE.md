@@ -35,7 +35,7 @@ docs/design/Жизнь-экраны.html
 Код (`web/`, `worker/`, `supabase/`) появится по этапам.
 
 ## Текущий этап
-**Этап 2 почти готов** (осталась проверка сайта с iPhone без VPN), дальше этап 3 — приём ссылок с iPhone. Чек-листы — в `docs/ROADMAP.md`.
+**Этап 3 почти готов** (на 20.11.2026): функция `add_link` в базе работает и проверена с ПК. Остановились на сборке команды iOS по `docs/IOS_SHORTCUT.md` — владелец ещё не собрал/не проверил её. Следующий шаг: убедиться, что рилс и YouTube доходят до «Входящих», затем этап 4 (обработчик YouTube) и уборка демо-данных (команды в начале `supabase/seed_demo.sql`). Правки интерфейса владелец соберёт позже (этап 6). Чек-листы — в `docs/ROADMAP.md`.
 Сайт: https://rezvanovv.github.io/zhizn/ — выкладывается сам при push в `web/` (`.github/workflows/deploy.yml`). Локально: `cd web; npm run dev`.
 Git: в коммитах анонимная почта GitHub (noreply), настроена локально в репозитории.
 Supabase: проект `zhizn`, адрес `https://bggbutppnpqfdzvmekhw.supabase.co`, ключи в `.env`. Используются новые ключи (publishable / secret), не legacy anon / service_role.
