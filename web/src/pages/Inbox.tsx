@@ -129,7 +129,9 @@ function SourceItem({ source: s, onChanged }: { source: SourceWithCards; onChang
   return (
     <div className="card">
       {top}
-      {title}
+      <a href={s.url} target="_blank" rel="noreferrer" className="card-title" style={{ color: 'var(--text)' }}>
+        {s.title || shortUrl(s.url)} <span style={{ color: 'var(--accent)', fontWeight: 600, whiteSpace: 'nowrap' }}>· открыть ↗</span>
+      </a>
       {s.status === 'processing' && (
         <>
           <span className="progress">
